@@ -15,7 +15,7 @@ class UserSeeder extends Seeder
         $admin->isAdmin = 1;
         $admin->name = "Admin";
         $admin->email = "admin@wba.com";
-        $admin->password = \Hash::make("anwar01junisaeful");
+        $admin->password = \Hash::make("passwordadmin");
         $admin->save();
     }
 }

@@ -10,4 +10,9 @@ php artisan cache:clear
 
 php artisan key:generate
 
+php artsan migrate --seed
+
 php artisan serve
+
+login : admin@wba.rf.gd
+password : passwordadmin
